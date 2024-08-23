@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://water38198.github.io
+url: https://water38198.github.io/payroom-frontend-blog/
+root: /payroom-frontend-blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,10 +99,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: next
+# theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/water38198/water38198.github.io.git
-  branch: main
+  repo: https://github.com/water38198/payroom-frontend-blog.git
+  branch: gh-pages
